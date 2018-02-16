@@ -1,16 +1,10 @@
 // inside src/index.js
 import React, {Component} from 'react'
 import {render} from 'react-dom'
-import {HashRouter as Router} from 'react-router-dom'
-import Routes from './routes'
+import YourAppName from './components/YourAppName'
 
-const App = () => {
- return <Router>
-  <Routes/>
- </Router>
-}
 
 render(
- <App/>,
+ <YourAppName/>,
  document.getElementById('root')
 )
